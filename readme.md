@@ -12,6 +12,13 @@ seleniumLauncher(function(er, selenium) {
 })
 ```
 
+Forcing selenium port
+---
+
+You can enforce a specific port for the selenium server to listen using an ENV var like so:
+
+    SELENIUM_PORT=4444
+
 Forcing selenium server version
 ---
 
